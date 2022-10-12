@@ -1,0 +1,22 @@
+[
+	{
+		"image": "./assets/guest11.jpeg",
+		"name": "Guest1",
+		"bio": "blablablablabla"
+	},
+	{
+		"image": "./assets/guest22.jpeg",
+		"name": "Guest2",
+		"bio": "blablablablabla"
+	},
+	{
+		"image": "./assets/guest33.jpeg",
+		"name": "Guest3",
+		"bio": "blablablablabla"
+	},
+	{
+		"image": "./assets/guest44.jpeg",
+		"name": "Guest4",
+		"bio": "blablablablabla"
+	}
+]

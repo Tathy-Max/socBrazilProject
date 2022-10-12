@@ -1,0 +1,38 @@
+.cardMDivContainer {
+	display: flex;
+	/* flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center; */
+	width: 80%;
+	height: 35rem;
+	/* border: 0.1rem solid red; */
+	/* border-radius: 5px; */
+	background-color: yellow;
+}
+.cardMDivCards {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	background-color: purple;
+	width: 80%;
+	height: 35rem;
+}
+.cardMDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 17rem;
+	height: 33rem;
+	background-color: #1c2630;
+	border-radius: 1rem;
+}
+.cardMDiv p {
+	color: #d7dfe7;
+	font-size: 0.8rem;
+}
+.cardMDiv h2 {
+	color: #d7dfe7;
+}

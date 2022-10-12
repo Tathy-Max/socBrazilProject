@@ -1,0 +1,31 @@
+.eventDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 3.5rem;
+	width: 80%;
+	height: 35rem;
+	border: 0.5rem solid green;
+	background-image: url('../../assets/backStar.png');
+}
+.eventDiv img {
+	margin-top: 0.5rem;
+	width: 50%;
+	height: 55vh;
+}
+.sponsorsDiv {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	width: 50%;
+	height: 1rem;
+	margin-top: 1.5rem;
+}
+.sponsorsDiv img {
+	border-radius: 100%;
+	width: 4.3rem;
+	height: 4.3rem;
+}
