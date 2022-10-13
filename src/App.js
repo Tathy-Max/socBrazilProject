@@ -3,7 +3,9 @@ import { Event } from './components/Event';
 import { CardM } from './components/CardM';
 import speakers from './speakers.json';
 import { useState } from 'react';
-import style from './index.css';
+import './index.css';
+import InfoLogo from './assets/infoLogo.png';
+import InfoText from './assets/infoText.png';
 
 function App() {
 	const [allSpeakers, setAllSpeakers] = useState(speakers);
@@ -11,14 +13,14 @@ function App() {
 		<>
 			<Navbar />
 			<Event />
-			<div id="id" className={style.cardMDiv}>
+			<div id="id" className="cardDiv">
 				{allSpeakers.map((speakers) => {
-					return (
-						<div>
-							<CardM speakers={speakers} />
-						</div>
-					);
+					return <CardM speakers={speakers} />;
 				})}
+			</div>
+			<div className="infoDiv">
+				<img src={InfoText} alt="info logo" />
+				<img src={InfoLogo} alt="info logo" />
 			</div>
 		</>
 	);

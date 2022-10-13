@@ -7,11 +7,12 @@ import SocCloud from '../../assets/tathy-avatar.png';
 export function Event() {
 	return (
 		<div className={style.eventDiv}>
-			<img src={LogoEvent} alt="logoEvent" />
+			<img src={LogoEvent} alt="logo Event" />
 			<div className={style.sponsorsDiv}>
-				<img src={Sans} alt="logoSans" />
-				<img src={DataSec} alt="logoData" />
-				<img src={SocCloud} alt="logoSoc" />
+				<img src={Sans} alt="logo Sans" />
+				<img src={DataSec} alt="logo Data" />
+				<img src={SocCloud} alt="logo Soc" />
+				<button>Incricao</button>
 			</div>
 		</div>
 	);

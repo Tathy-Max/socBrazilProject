@@ -1,22 +1,47 @@
 [
 	{
-		"image": "./assets/guest11.jpeg",
-		"name": "Guest1",
-		"bio": "blablablablabla"
+		"day": "Dia 05/12",
+		"imageS": "./assets/guest11.jpeg",
+		"name": "Chris Crowley",
+		"topicS": "What's SOC and What to expect? Scope Clarification",
+		"imageC": "https://content.invisioncic.com/u323382/monthly_2022_10/logo_mente_binaria_colorido.png.9159208a86b9ed269aa0431a387e2f59.png",
+		"link": "https://www.mentebinaria.com.br/",
+		"topicC": "Programa Do zero ao um"
 	},
 	{
-		"image": "./assets/guest22.jpeg",
-		"name": "Guest2",
-		"bio": "blablablablabla"
+		"day": "Dia 06/12",
+		"imageS": "./assets/guest22.jpeg",
+		"name": "Jay Jay",
+		"topicS": "Process and Team Building",
+		"imageC": "https://scontent-ord5-1.xx.fbcdn.net/v/t39.30808-1/301721500_486735510127739_5719972486576177662_n.jpg?stp=cp0_dst-jpg_e15_q65_s120x120&_nc_cat=110&ccb=1-7&_nc_sid=dbb9e7&_nc_ohc=ZZkbtr873goAX86emAD&_nc_ht=scontent-ord5-1.xx&oh=00_AT-C0ykqdw5aessT2vIb3WUzs81R7dPFnbV5j0btM5cNdw&oe=634E3D62",
+		"link": "https://www.mentebinaria.com.br/",
+		"topicC": "Programa Do zero ao um"
 	},
 	{
-		"image": "./assets/guest33.jpeg",
-		"name": "Guest3",
-		"bio": "blablablablabla"
+		"day": "Dia 07/12",
+		"imageS": "./assets/guest44.jpeg",
+		"name": "Joe Slowik",
+		"topicS": "Threat Detection and Use Case Management",
+		"imageC": "https://content.invisioncic.com/u323382/monthly_2022_10/logo_mente_binaria_colorido.png.9159208a86b9ed269aa0431a387e2f59.png",
+		"link": "https://www.mentebinaria.com.br/",
+		"topicC": "Programa Do zero ao um"
 	},
 	{
-		"image": "./assets/guest44.jpeg",
-		"name": "Guest4",
-		"bio": "blablablablabla"
+		"day": "Dia 08/12",
+		"imageS": "./assets/guest33.jpeg",
+		"name": "Rob Van Os",
+		"topicS": "Frustration and Maturity Management",
+		"imageC": "https://womcyprd.wpenginepowered.com/wp-content/uploads/2021/10/womcy-nav-logo.jpg",
+		"link": "https://womcy.org/",
+		"topicC": "Programa Do zero ao um"
+	},
+	{
+		"day": "Dia 09/12",
+		"imageS": "./assets/socLogo.png",
+		"name": "Chris Crowley",
+		"topicS": "SOC WorldWide: Good and Bad on SOC Management",
+		"imageC": "https://content.invisioncic.com/u323382/monthly_2022_10/logo_mente_binaria_colorido.png.9159208a86b9ed269aa0431a387e2f59.png",
+		"link": "https://www.mentebinaria.com.br/",
+		"topicC": "Programa Do zero ao um"
 	}
 ]

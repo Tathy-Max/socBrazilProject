@@ -4,13 +4,21 @@
 	padding: 0px;
 	background: #202b36;
 }
-.cardMDiv {
+.cardDiv {
 	display: flex;
-	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 79%;
+	height: 35rem;
+	margin: 0 auto 0 auto;
+	/* background-color: purple; */
+}
+.infoDiv {
+	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	width: 20rem;
-	height: 50rem;
-	border: 0.1rem solid red;
-	border-radius: 5px;
+	width: 80%;
+	height: 25rem;
+	margin: 0 auto 0 auto;
+	background-color: red;
 }
