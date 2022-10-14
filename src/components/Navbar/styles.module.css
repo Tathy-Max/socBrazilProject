@@ -7,7 +7,7 @@
 	padding-top: 1.2rem;
 	width: 100%;
 	height: 3rem;
-	border-bottom: 0.2rem solid #81c8f7;
+	border-bottom: 0.1rem solid #81c8f7;
 }
 .navbarDiv p {
 	font-size: 1rem;
@@ -27,8 +27,8 @@
 	--_s: 0.3s;
 }
 .navbarDiv img {
-	width: 13rem;
-	height: 6rem;
+	/* width: 12rem; */
+	height: 3rem;
 	margin-top: -0.5rem;
 	margin-right: 25rem;
 }

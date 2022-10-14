@@ -20,7 +20,7 @@ function App() {
 			</div>
 			<div className="infoDiv">
 				<img src={InfoText} alt="info logo" />
-				<img src={InfoLogo} alt="info logo" />
+				<img src={InfoLogo} width="400px" alt="info logo" />
 			</div>
 		</>
 	);

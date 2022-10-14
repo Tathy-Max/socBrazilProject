@@ -1,6 +1,6 @@
 [
 	{
-		"day": "Dia 05/12",
+		"day": "Seg 05/12",
 		"imageS": "./assets/guest11.jpeg",
 		"name": "Chris Crowley",
 		"topicS": "What's SOC and What to expect? Scope Clarification",
@@ -9,7 +9,7 @@
 		"topicC": "Programa Do zero ao um"
 	},
 	{
-		"day": "Dia 06/12",
+		"day": "Ter 06/12",
 		"imageS": "./assets/guest22.jpeg",
 		"name": "Jay Jay",
 		"topicS": "Process and Team Building",
@@ -18,7 +18,7 @@
 		"topicC": "Programa Do zero ao um"
 	},
 	{
-		"day": "Dia 07/12",
+		"day": "Qua 07/12",
 		"imageS": "./assets/guest44.jpeg",
 		"name": "Joe Slowik",
 		"topicS": "Threat Detection and Use Case Management",
@@ -27,7 +27,7 @@
 		"topicC": "Programa Do zero ao um"
 	},
 	{
-		"day": "Dia 08/12",
+		"day": "Qui 08/12",
 		"imageS": "./assets/guest33.jpeg",
 		"name": "Rob Van Os",
 		"topicS": "Frustration and Maturity Management",
@@ -36,7 +36,7 @@
 		"topicC": "Programa Do zero ao um"
 	},
 	{
-		"day": "Dia 09/12",
+		"day": "Sex 09/12",
 		"imageS": "./assets/socLogo.png",
 		"name": "Chris Crowley",
 		"topicS": "SOC WorldWide: Good and Bad on SOC Management",

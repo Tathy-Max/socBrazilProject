@@ -20,5 +20,7 @@
 	width: 80%;
 	height: 25rem;
 	margin: 0 auto 0 auto;
-	background-color: red;
+	/* background-color: #61ce70; */
+	background-image: url('./assets/Rectangle.png');
+	border-radius: 1rem;
 }
