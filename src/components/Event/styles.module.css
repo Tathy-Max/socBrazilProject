@@ -1,16 +1,22 @@
 .eventDiv {
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
+	flex-direction: column;
+	justify-content: flex-start;
+	/* align-items: center; */
 	margin-top: 3.5rem;
-	width: 83%;
+	width: 80%;
 	height: 42rem;
 	background-image: url('../../assets/backStar.png');
 	margin: 0 auto 0 auto;
 	border-radius: 1rem;
 }
-.infoLogoDiv {
+.eventDiv img {
+	width: 99.5%;
+	height: 50%;
+	border-radius: 35px;
+	margin-top: 5rem;
+}
+/* .infoLogoDiv {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -19,13 +25,13 @@
 	width: 83%;
 	height: 21rem;
 	border-radius: 1rem;
-	background: #1c2630;
+	background: #1c2630; */
 
-	/* border-style: outset;
+/* border-style: outset;
 	border-radius: 0.62rem;
 	border-color: #81c8f7;
 	box-shadow: #287ad9; */
-}
+/* }
 .infoDiv {
 	width: 50%;
 	height: 34vh;
@@ -61,7 +67,7 @@
 	border-style: outset;
 	border-color: #1c2630;
 	box-shadow: #287ad9;
-}
+} */
 /* .logoDiv img:hover {
 	background-color: #1c2630;
 	color: white;
@@ -81,13 +87,13 @@
 }
 .sponsorsDiv img {
 	border-radius: 100%;
-	width: 3.4rem;
-	height: 3.4rem;
-	margin: -0.5rem 1rem 2rem 1rem;
+	width: 3rem;
+	height: 3rem;
+	margin: -0.5rem 0.5rem 3rem -1rem;
 }
 .sponsorsDiv p {
 	color: #d7dfe7;
-	margin: 0 5rem;
+	margin: 0 6rem 0 5rem;
 }
 .subscribeButton {
 	background: #1c2630;

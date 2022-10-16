@@ -1,4 +1,4 @@
-import Logo from '../../assets/socLogo.png';
+import Logo from '../../assets/logoSocNav.png';
 import style from '../Navbar/styles.module.css';
 
 export function Navbar() {
