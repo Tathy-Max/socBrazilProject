@@ -1,0 +1,11 @@
+.moderDiv {
+	width: 20rem;
+	height: 20rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}

@@ -9,7 +9,7 @@
 	height: 31rem;
 	background-color: #1c2630;
 	border-radius: 1rem;
-	margin-top: 9rem;
+	margin-top: 5rem;
 	margin-bottom: 10rem;
 
 	border: 1px solid;
@@ -29,7 +29,7 @@
 	background-color: #1c2630;
 }
 .cardSDiv h3 {
-	color: #d7dfe7;
+	color: #89d0ff;
 	background-color: #1c2630;
 }
 .cardSDiv img {
@@ -39,9 +39,8 @@
 	border-radius: 100%;
 }
 #imgC {
-	height: 4rem;
-	background: hsl(0, 0%, 90%);
-	border-radius: 0%;
+	height: 3.8rem;
+	background: #1c2630;
 	margin-top: 2rem;
 	margin-bottom: -2rem;
 }
