@@ -10,7 +10,7 @@ export function Mediators() {
 			</div>
 			<div className="moderDiv">
 				<div className="moderInfoDiv">
-					<img src={BrunoLogo} alt="logo ivan"></img>
+					<img src={BrunoLogo} alt="logo bruno"></img>
 					<h4>Bruno Guerreiro</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
@@ -26,16 +26,16 @@ export function Mediators() {
 					</p>
 				</div>
 				<div className="moderInfoDiv">
-					<img src="../../assets/ivan.jpeg" alt="logo ivan"></img>
-					<h4>Luccas Bertti</h4>
+					<img src={IvanLogo} alt="logo kramer"></img>
+					<h4>Kramer Saunders</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
 						sunt quidem aliquam cupiditate.
 					</p>
 				</div>
 				<div className="moderInfoDiv">
-					<img src="../../assets/ivan.jpeg" alt="logo ivan"></img>
-					<h4>Kramer Saunders</h4>
+					<img src={IvanLogo} alt="logo luccas"></img>
+					<h4>Luccas Bertti</h4>
 					<p>
 						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
 						sunt quidem aliquam cupiditate.

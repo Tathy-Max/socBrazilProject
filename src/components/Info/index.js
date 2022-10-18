@@ -6,16 +6,19 @@ export function Info() {
 		<div className={style.infoDiv}>
 			<img src={InfoLogo} width="400px" alt="info logo" />
 			<div className={style.infoText}>
-				<h2>Venha para o evento mais foda dos ultimos anos.</h2>
+				<h2>Junte-se a nós para o evento online do ano!</h2>
 				<br></br>
 				<h4>
-					bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbmmmmbbb<br></br>
-					bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<br></br>
-					bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<br></br>
-					bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<br></br>
-					bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<br></br>
-					bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb<br></br>
+					SOC Brazil Week 2022 é uma oportunidade única de reunir alguns dos
+					principais<br></br> atores da comunidade global de SecOps à
+					especialistas locais em uma semana inteira <br></br>de palestras e
+					painéis onde discutiremos números, tendências e melhores práticas
+					<br></br> em todo o mundo. Não perca também nosso momento Comunidades
+					de SI,<br></br> dedicado à inclusão, oportunidades, e muito conteúdo
+					de Blue Team.
 				</h4>
+				<br></br>
+				<h3>Tudo gratuito e online. Início sempre às 20h.</h3>
 			</div>
 		</div>
 	);

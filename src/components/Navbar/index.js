@@ -5,9 +5,8 @@ export function Navbar() {
 	return (
 		<div className={style.navbarDiv}>
 			<img src={Logo} alt="logoSoc" />
-			<p>Home</p>
-			<p>Speakers</p>
-			<p>Mediators</p>
+			<p>Convidados</p>
+			<p>Anfitrioes</p>
 			<p>Agenda</p>
 		</div>
 	);

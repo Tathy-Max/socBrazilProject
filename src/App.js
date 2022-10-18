@@ -10,6 +10,7 @@ import './index.css';
 
 function App() {
 	const [allSpeakers, setAllSpeakers] = useState(speakers);
+
 	return (
 		<>
 			<Navbar />

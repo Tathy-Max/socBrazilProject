@@ -17,7 +17,14 @@ export function Event() {
 				<img src={DataSec} alt="logo Data" />
 				<img src={SocCloud} alt="logo Soc" />
 				<img src={Zup} alt="logo Soc" />
-				<button className={style.subscribeButton}>Inscreva-se Já!</button>
+
+				<a
+					href="https://www.sympla.com.br/evento-online/soc-brazil-week-2022/1735097"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<button className={style.subscribeButton}>Inscreva-se Já!</button>
+				</a>
 			</div>
 		</>
 	);
