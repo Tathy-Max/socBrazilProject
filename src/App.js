@@ -1,6 +1,9 @@
 import { Navbar } from './components/Navbar';
 import { Event } from './components/Event';
 import { CardM } from './components/CardM';
+
+// import SpeakerD from './components/SpeakerD';
+
 import { Info } from './components/Info';
 import { Mediators } from './components/Mediators';
 import { Footer } from './components/Footer';
@@ -19,7 +22,12 @@ function App() {
 			<Info />
 			<div id="agenda" className="cardDiv">
 				{allSpeakers.map((speakers) => {
-					return <CardM speakers={speakers} />;
+					return (
+						<>
+							<CardM speakers={speakers} />
+							{/* <SpeakerD speakers={speakers} /> */}
+						</>
+					);
 				})}
 			</div>
 			<Mediators />

@@ -1,14 +1,11 @@
 import React from 'react';
 import { useRef, useState } from 'react';
-import ReactDOM from 'react-dom';
-import { createRoot } from 'react-dom';
-
 import Draggable from 'react-draggable';
 import { Button, Modal } from 'antd';
 import '../../speakers.json';
 
 const SpeakerD = ({ speakers }) => {
-	const [visible, setVisible] = useState(false);
+	const [open, setOpen] = useState(false);
 	const [disabled, setDisabled] = useState(false);
 	const [bounds, setBounds] = useState({
 		left: 0,
@@ -19,17 +16,17 @@ const SpeakerD = ({ speakers }) => {
 	const draggleRef = useRef(null);
 
 	const showModal = () => {
-		setVisible(true);
+		setOpen(true);
 	};
 
 	const handleOk = (e) => {
 		console.log(e);
-		setVisible(false);
+		setOpen(false);
 	};
 
 	const handleCancel = (e) => {
 		console.log(e);
-		setVisible(false);
+		setOpen(false);
 	};
 
 	const onStart = (_event, uiData) => {
@@ -74,11 +71,11 @@ const SpeakerD = ({ speakers }) => {
 							onBlur={() => {}}
 							// end
 						>
-							Draggable Modal
+							{/* Draggable Modal */}
 							<b>{speakers.name} Experience</b>
 						</div>
 					}
-					visible={visible}
+					open={open}
 					onOk={handleOk}
 					onCancel={handleCancel}
 					modalRender={(modal) => (
@@ -91,10 +88,7 @@ const SpeakerD = ({ speakers }) => {
 						</Draggable>
 					)}
 				>
-					<p>{speakers.day}</p>
-					<p>
-						<b>Category:</b> {speakers.topicS}{' '}
-					</p>
+					<p>{speakers.aboutS}</p>
 				</Modal>
 			)}
 		</>
