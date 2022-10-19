@@ -8,7 +8,7 @@ export function Mediators() {
 			<div className="faixaDiv">
 				<h2>Anfitriões</h2>
 			</div>
-			<div className="moderDiv">
+			<div className="moderDiv" id="anfitrioes">
 				<div className="moderInfoDiv">
 					<img src={BrunoLogo} alt="logo bruno"></img>
 					<h4>Bruno Guerreiro</h4>

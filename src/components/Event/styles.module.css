@@ -47,7 +47,6 @@
 	align-content: stretch;
 	align-items: center;
 }
-
 .sponsorsDiv img {
 	width: 3rem;
 	height: 3rem;
@@ -55,7 +54,7 @@
 }
 .sponsorsDiv p {
 	color: #d7dfe7;
-	margin: 0 6rem 0 5rem;
+	margin: 0 1rem 0 3rem;
 }
 .subscribeButton {
 	background: #c4c4cc;
@@ -81,8 +80,9 @@ a {
 	text-decoration: none;
 	color: #1c2630;
 	width: 7rem;
-	height: 4.5rem;
+	height: 3rem;
 	border-radius: 1rem;
+	margin: 0 7rem 0 4.4rem;
 }
 /* a:hover {
 	background-color: #1c2630;

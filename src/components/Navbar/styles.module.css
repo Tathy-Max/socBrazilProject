@@ -27,6 +27,6 @@
 }
 .navbarDiv img {
 	height: 5rem;
-	margin-top: -0.8rem;
-	margin-right: 32rem;
+	margin: -0.8rem 32rem 0 6rem;
+	/* margin-right: 32rem; */
 }

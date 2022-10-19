@@ -16,7 +16,7 @@ function App() {
 			<Navbar />
 			<Event />
 			<Info />
-			<div id="id" className="cardDiv">
+			<div id="agenda" className="cardDiv">
 				{allSpeakers.map((speakers) => {
 					return <CardM speakers={speakers} />;
 				})}
