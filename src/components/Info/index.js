@@ -6,7 +6,7 @@ export function Info() {
 		<div className={style.infoDiv}>
 			<img src={InfoLogo} width="400px" alt="info logo" />
 			<div className={style.infoText}>
-				<h2>Junte-se a nós para o evento online do ano!</h2>
+				<h2>Junte-se a nós no evento de SecOps do ano!</h2>
 				<br></br>
 				<h4>
 					SOC Brazil Week 2022 é uma oportunidade única de reunir alguns dos

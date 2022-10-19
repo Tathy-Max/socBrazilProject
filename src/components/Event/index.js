@@ -19,6 +19,7 @@ export function Event() {
 				<img src={Zup} alt="logo Soc" />
 
 				<a
+					id="btnSubscribe"
 					href="https://www.sympla.com.br/evento-online/soc-brazil-week-2022/1735097"
 					target="_blank"
 					rel="noreferrer"

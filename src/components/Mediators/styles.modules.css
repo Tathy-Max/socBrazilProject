@@ -36,12 +36,19 @@
 	width: 6rem;
 	height: 6rem;
 	margin: 1rem auto 0.5rem auto;
+	transition: transform 0.3s;
+}
+.moderInfoDiv img:hover {
+	transform: scale(1.1);
 }
 .moderInfoDiv h4 {
 	color: #d7dfe7;
 	margin: 1rem auto 0.5rem auto;
+	background-color: #1c2630;
 }
 .moderInfoDiv p {
 	color: #d7dfe7;
 	font-size: 0.8rem;
+	background-color: #1c2630;
+	padding-bottom: 1rem;
 }

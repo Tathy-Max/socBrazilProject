@@ -3,6 +3,7 @@ import { Event } from './components/Event';
 import { CardM } from './components/CardM';
 import { Info } from './components/Info';
 import { Mediators } from './components/Mediators';
+import { Footer } from './components/Footer';
 
 import speakers from './speakers.json';
 import { useState } from 'react';
@@ -22,6 +23,7 @@ function App() {
 				})}
 			</div>
 			<Mediators />
+			<Footer />
 		</>
 	);
 }

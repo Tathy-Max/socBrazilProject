@@ -10,12 +10,14 @@ export function Navbar() {
 			<Link to="agenda" smooth={true} duration={500}>
 				<p>Agenda</p>
 			</Link>
-
+			<Link to="agenda" smooth={true} duration={500}>
+				<p>Convidados</p>
+			</Link>
 			<Link to="anfitrioes" smooth={true} duration={500}>
 				<p>Anfitriões</p>
 			</Link>
-			<Link to="agenda" smooth={true} duration={500}>
-				<p>Convidados</p>
+			<Link to="contato" smooth={true} duration={500}>
+				<p>Contatos</p>
 			</Link>
 		</div>
 	);
