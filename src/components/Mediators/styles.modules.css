@@ -30,6 +30,7 @@
 	width: 20%;
 	border-radius: 1rem;
 }
+
 .moderInfoDiv img {
 	border-radius: 2rem;
 	background-color: #1c2630;
@@ -41,6 +42,13 @@
 .moderInfoDiv img:hover {
 	transform: scale(1.1);
 }
+.moderInfoDiv a {
+	border-radius: 2rem;
+	background-color: #1c2630;
+	height: 6rem;
+	margin: 0 auto 0.5rem auto;
+}
+
 .moderInfoDiv h4 {
 	color: #d7dfe7;
 	margin: 1rem auto 0.5rem auto;

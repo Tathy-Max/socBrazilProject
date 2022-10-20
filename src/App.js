@@ -1,11 +1,9 @@
 import { Navbar } from './components/Navbar';
 import { Event } from './components/Event';
 import { CardM } from './components/CardM';
-
-// import SpeakerD from './components/SpeakerD';
-
 import { Info } from './components/Info';
 import { Mediators } from './components/Mediators';
+
 import { Footer } from './components/Footer';
 
 import speakers from './speakers.json';
@@ -13,7 +11,7 @@ import { useState } from 'react';
 import './index.css';
 
 function App() {
-	const [allSpeakers, setAllSpeakers] = useState(speakers);
+	const [allSpeakers] = useState(speakers);
 
 	return (
 		<>
@@ -25,12 +23,12 @@ function App() {
 					return (
 						<>
 							<CardM speakers={speakers} />
-							{/* <SpeakerD speakers={speakers} /> */}
 						</>
 					);
 				})}
 			</div>
 			<Mediators />
+
 			<Footer />
 		</>
 	);
