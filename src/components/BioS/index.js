@@ -6,17 +6,21 @@ export function BioS({ speakers }) {
 	return (
 		<div className={style.bioContainerDiv} id="convidados">
 			<>
-				{bio.map((speakers) => {
-					return (
-						<>
-							<div className={style.bioSDiv}>
-								<img src={`${speakers.imageS}`} alt="speakers logo" />
-								{/* <h4>{speakers.name}</h4> */}
-								<p>{speakers.aboutS}</p>
-							</div>
-						</>
-					);
-				})}
+				{bio
+					.filter((speakersF) => {
+						return speakersF.aboutS !== 'nao';
+					})
+					.map((speakersF) => {
+						return (
+							<>
+								<div className={style.bioSDiv}>
+									<img src={`${speakersF.imageS}`} alt="speakers logo" />
+									{/* <h4>{speakers.name}</h4> */}
+									<p>{speakersF.aboutS}</p>
+								</div>
+							</>
+						);
+					})}
 			</>
 		</div>
 	);
