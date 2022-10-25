@@ -9,6 +9,11 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 80%;
-	height: 35rem;
+	height: 36rem;
 	margin: 0 auto 0 auto;
+}
+.h2Agenda {
+	color: #89d0ff;
+	margin: 1.2rem auto -0.6rem auto;
+	padding: 0 0 0 10rem;
 }

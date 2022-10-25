@@ -2,11 +2,13 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	align-items: flex-start;
+	align-items: center;
 	padding-top: 1.2rem;
 	width: 100%;
-	height: 3rem;
+	height: 4.1rem;
 	border-bottom: 0.1rem solid #81c8f7;
+	position: fixed;
+	margin-top: -2.1rem;
 }
 .navbarDiv p {
 	font-size: 1.1rem;
@@ -27,5 +29,6 @@
 }
 .navbarDiv img {
 	height: 5rem;
-	margin: -0.8rem 40rem 0 6rem;
+	margin: 0.5rem 40rem 0 6rem;
+	background: no-repeat;
 }

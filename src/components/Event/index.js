@@ -13,7 +13,7 @@ export function Event() {
 			</div>
 			<div className={style.sponsorsDiv}>
 				<p>Apoio:</p>
-				<img src={Sans} alt="logo Sans" />
+				<img src={Sans} className={style.sansId} alt="logo Sans" />
 				<img src={DataSec} alt="logo Data" />
 				<img src={SocCloud} alt="logo Soc" />
 				<img src={Zup} alt="logo Soc" />

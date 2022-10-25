@@ -1,5 +1,4 @@
 import style from '../CardM/styles.module.css';
-import '../../speakers.json';
 
 export function CardM({ speakers }) {
 	// console.log(speakers);

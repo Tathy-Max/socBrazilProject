@@ -1,48 +1,26 @@
 .eventDiv {
-	/* display: flex;
-	flex-direction: column;
-	width: 80%;
-	height: 42rem;
-	background-image: url('../../assets/backStar.png');
-	margin: 1rem auto 0 auto;
-	border-radius: 1rem; */
-
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	height: 45rem;
+	height: 52rem;
 	background-image: url('../../assets/backStar.png');
-	margin: 1.6rem auto 0 auto;
+	margin: 1.8rem auto 0 auto;
 	border-radius: 1rem;
 	justify-content: space-between;
 	align-items: center;
 }
 .eventDiv img {
-	/* width: 100%;
-	height: 50%;
-	border-radius: 2.2rem;
-	margin-top: 4rem; */
-
 	width: 74rem;
-	height: 22rem;
+	height: 23rem;
 	border-radius: 2.2rem;
-	margin-top: 3.2rem;
+	margin-top: 8rem;
 }
 .sponsorsDiv {
-	/* display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: flex-start;
-	width: 80%;
-	height: 17%;
-	margin: -13rem 0 -0.2rem 8.1rem; */
-
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-evenly;
 	width: 100%;
-	height: 5rem;
+	height: 5.7rem;
 	margin: -16rem 13px -0.2rem 0.1rem;
 	align-content: stretch;
 	align-items: center;
@@ -52,6 +30,10 @@
 	height: 3rem;
 	margin: 0.3rem 0.5rem 0 -0.5rem;
 }
+/* .sansId {
+	width: 20rem;
+	height: 20rem;
+} */
 .sponsorsDiv p {
 	color: #d7dfe7;
 	margin: 0 1rem 0 3rem;
