@@ -50,6 +50,7 @@
 	align-self: center;
 	margin-bottom: 3rem;
 	margin-right: -4.8rem;
+	cursor: pointer;
 }
 .subscribeButton:hover {
 	background-color: #1c2630;

@@ -6,13 +6,13 @@ export function Navbar() {
 	return (
 		<div className={style.navbarDiv}>
 			<img src={Logo} alt="logoSoc" />
-			<Link to="agenda" smooth={true} duration={500} offset={-115}>
+			<Link to="agenda" smooth={true} duration={500} offset={-100}>
 				<p>Agenda</p>
 			</Link>
 			<Link to="anfitrioes" smooth={true} duration={500} offset={-180}>
 				<p>Anfitriões</p>
 			</Link>
-			<Link to="convidados" smooth={true} duration={500} offset={-130}>
+			<Link to="convidados" smooth={true} duration={500} offset={-100}>
 				<p>Convidados</p>
 			</Link>
 			<Link to="contato" smooth={true} duration={500}>

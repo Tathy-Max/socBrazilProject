@@ -9,7 +9,7 @@
 	padding: 0.5rem;
 	width: 13.5rem;
 	height: 31rem;
-	background-color: #11171d;
+	background-color: #1c2630;
 	border-radius: 1rem;
 	margin-top: 10.2rem;
 	margin-bottom: 10rem;
@@ -17,39 +17,39 @@
 	border: 1px solid;
 	border-color: #81c8f7;
 }
-/* .cardSDiv:hover {
+.cardSDiv:hover {
 	background-color: #1c2630;
 	color: white;
 	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
 		0 17px 50px 0 rgba(0, 0, 0, 0.19);
-} */
+}
 .cardSDiv p {
 	color: #d7dfe7;
 	font-size: 1rem;
 	height: 1rem;
-	background-color: #11171d;
+	background-color: #1c2630;
 }
 .cardSDiv h3 {
 	color: #89d0ff;
-	background-color: #11171d;
+	background-color: #1c2630;
 }
 .cardSDiv img {
 	color: #d7dfe7;
 	width: 7.3rem;
 	height: 7.3rem;
 	border-radius: 100%;
-	background-color: #11171d;
+	background-color: none;
 }
 #imgC {
 	height: 3.8rem;
-	background: #11171d;
+	background: #1c2630;
 	margin-top: 2rem;
 	margin-bottom: -2rem;
 }
 .cardSDiv h2 {
 	color: #81c8f7;
-	background-color: #11171d;
+	background-color: #1c2630;
 }
 .cardSDiv a {
-	background-color: #11171d;
+	background-color: #1c2630;
 }

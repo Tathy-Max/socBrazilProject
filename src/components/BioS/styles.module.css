@@ -1,11 +1,34 @@
 .bioContainerDiv {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
 	width: 100%;
-	height: 30rem;
+	height: 31rem;
 	margin: 2rem auto 0 auto;
+	background-image: url('../../assets/backStar.png');
+	/* background-color: red; */
+}
+.h2Div {
+	background-image: url('../../assets/backStar.png');
+	width: 80%;
+	height: max-content;
+	margin: -1rem 28rem 0 10rem;
+}
+.h2Div h2 {
+	margin: 0 auto 0.5rem 10rem;
+	color: #d7dfe7;
+	background-image: url('../../assets/backStar.png');
+	width: 80%;
+}
+.cardsSDiv {
+	background-color: no-repeat;
+	width: 80%;
+	height: max-content;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: -1.5rem auto 0 10rem;
 	background-image: url('../../assets/backStar.png');
 }
 .bioSDiv {
@@ -15,8 +38,8 @@
 	align-items: center;
 	text-align: center;
 	padding: 0.5rem;
-	width: 20rem;
-	height: 20rem;
+	width: 15rem;
+	height: 25rem;
 	background-color: #1c2630;
 	border-radius: 1rem;
 	border: 1px solid;
@@ -28,9 +51,17 @@
 	width: 5rem;
 	height: 5rem;
 	border-radius: 0.6rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
 }
 .bioSDiv p {
 	color: #d7dfe7;
 	font-size: 0.85rem;
-	border-radius: 10px;
+	height: 20rem;
+	background-color: #1c2630;
+}
+.bioSDiv h4 {
+	color: #81c8f7;
+	margin-bottom: 1rem;
+	background-color: #1c2630;
 }

@@ -17,10 +17,8 @@ export function Footer() {
 					<button className={style.subscribeButton}>Inscreva-se Já!</button>
 				</a>
 			</div>
-			<div className={style.faixaDiv}>
-				<h3>Conecte-se com o SOC Brazil</h3>
-			</div>
 			<div className={style.contatoDiv} id="contato">
+				<h3>Conecte-se com o SOC Brazil</h3>
 				<div className={style.socialDiv}>
 					<a
 						href="https://www.linkedin.com/company/socbrazil/"
