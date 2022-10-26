@@ -1,5 +1,6 @@
 import style from '../BioS/styles.module.css';
 import { useState } from 'react';
+import { LinkedinOutlined } from '@ant-design/icons';
 
 export function BioS({ speakers }) {
 	const [bio] = useState(speakers);
@@ -19,8 +20,15 @@ export function BioS({ speakers }) {
 								<>
 									<div className={style.bioSDiv}>
 										<img src={`${speakersF.imageS}`} alt="speakers logo" />
-										<h4>{speakersF.name}</h4>
+										<h3>{speakersF.name}</h3>
 										<p>{speakersF.aboutS}</p>
+										<a
+											href={speakersF.linkedinS}
+											target="_blank"
+											rel="noreferrer"
+										>
+											<LinkedinOutlined style={{ fontSize: 29 }} />
+										</a>
 									</div>
 								</>
 							);

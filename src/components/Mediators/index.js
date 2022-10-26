@@ -21,8 +21,9 @@ export function Mediators() {
 					</a>
 					<h4>Bruno Guerreiro</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
-						sunt quidem aliquam cupiditate.
+						Consultor, instrutor e executivo de Segurança Cibernética com mais
+						de 15 anos de experiência. Colabora com projetos como CleanDNS, SOC
+						Brazil, OpenCTI.BR.
 					</p>
 				</div>
 				<div className="moderInfoDiv">
@@ -50,8 +51,9 @@ export function Mediators() {
 					</a>
 					<h4>Kramer Saunders</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
-						sunt quidem aliquam cupiditate.
+						Consultor e palestrante com mais de 10 anos de experiência.
+						Especialista em Gestão de Riscos e Continuidade de Negócios com foco
+						nos frameworks NIST, CIS Controls, ISO's, Mitre Attack, e outros.
 					</p>
 				</div>
 				<div className="moderInfoDiv">
@@ -64,8 +66,9 @@ export function Mediators() {
 					</a>
 					<h4>Luccas Bertti</h4>
 					<p>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis
-						sunt quidem aliquam cupiditate.
+						Com mais de 10 anos em experiência de segurança da informação, é
+						hoje fundador da comunidade SOC Brazil e da empresa SOC Cloud,
+						consultor e instrutor no segmento de SOC.
 					</p>
 				</div>
 			</div>
