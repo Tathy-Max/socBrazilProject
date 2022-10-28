@@ -14,9 +14,9 @@ export function Event() {
 			<div className={style.sponsorsDiv}>
 				<p>Apoio:</p>
 				<img src={Sans} className={style.sansId} alt="logo Sans" />
-				<img src={DataSec} alt="logo Data" />
-				<img src={SocCloud} alt="logo Soc" />
-				<img src={Zup} alt="logo Soc" />
+				<img src={DataSec} className={style.dataId} alt="logo Data" />
+				<img src={SocCloud} className={style.socId} alt="logo Soc" />
+				<img src={Zup} className={style.zupId} alt="logo Soc" />
 
 				<a
 					id="btnSubscribe"

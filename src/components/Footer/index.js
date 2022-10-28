@@ -7,7 +7,7 @@ export function Footer() {
 	return (
 		<>
 			<div className={style.btDiv}>
-				<h3>Nao perca essa chance!</h3>
+				<h3>Não perca essa chance!</h3>
 				<a
 					id="btnSubscribe"
 					href="https://www.sympla.com.br/evento-online/soc-brazil-week-2022/1735097"

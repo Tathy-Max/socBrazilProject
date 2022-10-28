@@ -25,15 +25,27 @@
 	align-content: stretch;
 	align-items: center;
 }
-.sponsorsDiv img {
+/* .sponsorsDiv img {
 	width: 3rem;
 	height: 3rem;
 	margin: 0.3rem 0.5rem 0 -0.5rem;
-}
-/* .sansId {
-	width: 20rem;
-	height: 20rem;
 } */
+.sansId {
+	width: 2.3rem;
+	height: 2.2rem;
+}
+.dataId {
+	width: 3.9rem;
+	height: 3rem;
+}
+.socId {
+	width: 2.9rem;
+	height: 2.8rem;
+}
+.zupId {
+	width: 4rem;
+	height: 4rem;
+}
 .sponsorsDiv p {
 	color: #d7dfe7;
 	margin: 0 1rem 0 3rem;

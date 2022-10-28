@@ -33,3 +33,32 @@
 	margin: 0.5rem 40rem 0 6rem;
 	background: no-repeat;
 }
+
+@media screen and (max-width: 480px) {
+	.navbarDiv {
+		padding-top: 1.2rem;
+		height: 4.1rem;
+		border-bottom: 0.1rem solid #81c8f7;
+		margin-top: -2.1rem;
+	}
+	.navbarDiv p {
+		font-size: 1.1rem;
+		--s: 0.1em; /* the thickness of the line */
+		--c: #4a5759; /* the color */
+		color: #e1e1e6;
+		padding-bottom: var(--s);
+		background: linear-gradient(90deg, var(--c) 50%, #000 0)
+				calc(100% - var(--_p, 0%)) / 200% 100%,
+			linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+		-webkit-background-clip: text, padding-box;
+		background-clip: text, padding-box;
+	}
+	.navbarDiv p:hover {
+		--_p: 100%;
+		--_s: 0.3s;
+	}
+	.navbarDiv img {
+		height: 5rem;
+		margin: 0.5rem 5rem 0 3rem;
+	}
+}
