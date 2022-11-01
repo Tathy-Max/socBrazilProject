@@ -33,3 +33,30 @@
 	background-color: #d7dfe7;
 	color: #3746cd;
 }
+@media screen and (max-width: 480px) {
+	.infoDiv {
+		width: 133%;
+		height: fit-content;
+		margin: 0 auto 0 auto;
+		background-color: #d7dfe7;
+	}
+	.infoDiv img {
+		margin: 0.95rem -0.5rem 0 -0.5rem;
+		height: 11rem;
+	}
+	.infoText {
+		margin: 0 -5rem 0 auto;
+		width: 100%;
+	}
+	.infoText h2 {
+		margin-top: 0.5rem;
+	}
+	.infoText h4 {
+		margin-top: -0.5rem;
+		font-size: 0.9rem;
+	}
+	.infoText h3 {
+		margin-top: -0.8rem;
+		margin-bottom: 0.5rem;
+	}
+}

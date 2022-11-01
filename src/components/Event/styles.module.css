@@ -4,6 +4,7 @@
 	width: 100%;
 	height: 52rem;
 	background-image: url('../../assets/backStar.png');
+	/* background-size: 100vw; */
 	margin: 1.8rem auto 0 auto;
 	justify-content: space-between;
 	align-items: center;
@@ -95,22 +96,27 @@
 	.sansId {
 		width: 1.7rem;
 		height: 1.8rem;
+		margin-left: 0.8rem;
+		margin-right: 1.4rem;
 	}
 	.dataId {
-		width: 2.6rem;
-		height: 1.9rem;
+		width: 2.7rem;
+		height: 2rem;
+		margin-right: 1.4rem;
 	}
 	.socId {
-		width: 1.9rem;
-		height: 1.8rem;
+		width: 2rem;
+		height: 1.9rem;
+		margin-right: 1.4rem;
 	}
 	.zupId {
-		width: 2.6rem;
-		height: 2.6rem;
+		width: 2.7rem;
+		height: 2.7rem;
+		margin-right: 1.4rem;
 	}
 	.sponsorsDiv p {
 		color: #d7dfe7;
-		margin: 0 2rem 0 0.6rem;
+		margin: 0 2rem 0 -1.3rem;
 	}
 	.subscribeButton {
 		background: #c4c4cc;
@@ -119,7 +125,7 @@
 		box-shadow: #287ad9;
 		border-radius: 0.62rem;
 		padding: 0.62rem 1.3rem;
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 		font-weight: bold;
 		align-self: center;
 		margin-bottom: 3rem;
