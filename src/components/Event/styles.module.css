@@ -5,7 +5,6 @@
 	height: 52rem;
 	background-image: url('../../assets/backStar.png');
 	margin: 1.8rem auto 0 auto;
-	border-radius: 1rem;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -21,15 +20,10 @@
 	justify-content: space-evenly;
 	width: 100%;
 	height: 5.7rem;
-	margin: -16rem 13px -0.2rem 0.1rem;
+	margin: -16rem 0.8rem -0.2rem 0.1rem;
 	align-content: stretch;
 	align-items: center;
 }
-/* .sponsorsDiv img {
-	width: 3rem;
-	height: 3rem;
-	margin: 0.3rem 0.5rem 0 -0.5rem;
-} */
 .sansId {
 	width: 2.3rem;
 	height: 2.2rem;
@@ -84,4 +78,67 @@
 	color: white;
 } */
 @media screen and (max-width: 480px) {
+	.eventDiv {
+		height: 40rem;
+		margin: 1.8rem auto 0 8rem;
+	}
+	.eventDiv img {
+		width: 37rem;
+		height: 13rem;
+		margin-top: 6rem;
+	}
+	.sponsorsDiv {
+		width: 37rem;
+		height: 4.7rem;
+		margin: -18rem 0.4rem 0.2rem 7rem;
+	}
+	.sansId {
+		width: 1.7rem;
+		height: 1.8rem;
+	}
+	.dataId {
+		width: 2.6rem;
+		height: 1.9rem;
+	}
+	.socId {
+		width: 1.9rem;
+		height: 1.8rem;
+	}
+	.zupId {
+		width: 2.6rem;
+		height: 2.6rem;
+	}
+	.sponsorsDiv p {
+		color: #d7dfe7;
+		margin: 0 2rem 0 0.6rem;
+	}
+	.subscribeButton {
+		background: #c4c4cc;
+		color: #1c2630;
+		border-color: #81c8f7;
+		box-shadow: #287ad9;
+		border-radius: 0.62rem;
+		padding: 0.62rem 1.3rem;
+		font-size: 1.3rem;
+		font-weight: bold;
+		align-self: center;
+		margin-bottom: 3rem;
+		margin-right: -4.8rem;
+		cursor: pointer;
+	}
+	.subscribeButton:hover {
+		background-color: #1c2630;
+		color: white;
+		box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+			0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	}
+	.sponsorsDiv a {
+		/* background-color: #202b36;
+		text-decoration: none;
+		color: #1c2630;
+		width: 7rem;
+		height: 3rem;
+		border-radius: 1rem;
+		margin: 0 7rem 0 4.4rem; */
+	}
 }
