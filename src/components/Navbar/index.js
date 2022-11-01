@@ -9,10 +9,10 @@ export function Navbar() {
 			<Link to="agenda" smooth={true} duration={500} offset={-100}>
 				<p>Agenda</p>
 			</Link>
-			<Link to="anfitrioes" smooth={true} duration={500} offset={-180}>
+			<Link to="anfitrioes" smooth={true} duration={500} offset={-130}>
 				<p>Anfitriões</p>
 			</Link>
-			<Link to="convidados" smooth={true} duration={500} offset={-100}>
+			<Link to="convidados" smooth={true} duration={500} offset={-95}>
 				<p>Convidados</p>
 			</Link>
 			<Link to="contato" smooth={true} duration={500}>

@@ -13,11 +13,11 @@
 .faixaDiv {
 	background-color: #d7dfe7;
 	width: 100%;
-	height: 19rem;
+	height: 20.5rem;
 }
 .faixaDiv h2 {
 	background-color: #d7dfe7;
-	padding: 0.7rem 0 0 10rem;
+	padding: 2rem 0 0 10rem;
 }
 .moderInfoDiv {
 	display: flex;
@@ -58,31 +58,4 @@
 	padding-bottom: 1rem;
 }
 @media screen and (max-width: 480px) {
-	.navbarDiv {
-		padding-top: 1.2rem;
-		height: 3.1rem;
-		width: fit-content;
-		border-bottom: 0.1rem solid #81c8f7;
-		margin-top: -2.1rem;
-	}
-	.navbarDiv p {
-		font-size: 1rem;
-		--s: 0.1em; /* the thickness of the line */
-		--c: #4a5759; /* the color */
-		color: #e1e1e6;
-		padding-bottom: var(--s);
-		background: linear-gradient(90deg, var(--c) 50%, #000 0)
-				calc(100% - var(--_p, 0%)) / 200% 100%,
-			linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
-		-webkit-background-clip: text, padding-box;
-		background-clip: text, padding-box;
-	}
-	.navbarDiv p:hover {
-		--_p: 100%;
-		--_s: 0.3s;
-	}
-	.navbarDiv img {
-		height: 4rem;
-		margin: 0.5rem -3rem 0 -1.1rem;
-	}
 }

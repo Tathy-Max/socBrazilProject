@@ -119,11 +119,11 @@
 		margin: 0 2rem 0 -1.3rem;
 	}
 	.subscribeButton {
-		background: #c4c4cc;
-		color: #1c2630;
-		border-color: #81c8f7;
+		/* background: #c4c4cc; */
+		/* color: #1c2630; */
+		/* border-color: #81c8f7;
 		box-shadow: #287ad9;
-		border-radius: 0.62rem;
+		border-radius: 0.62rem; */
 		padding: 0.62rem 1.3rem;
 		font-size: 1.1rem;
 		font-weight: bold;
