@@ -89,18 +89,14 @@
 } */
 @media screen and (max-width: 480px) {
 	.eventContainer {
-		width: 168%;
+		/* width: 168%; */
 		height: 41.5rem;
 		width: calc(100% - 100px);
 		height: 27.5rem;
-		display: flex;
-		flex-direction: column;
-		align-items: baseline;
-		flex-wrap: nowrap;
-		padding-right: 26.5rem;
+		padding-right: 29.5rem;
 	}
 	.eventDiv {
-		width: 168%;
+		width: 190%;
 		height: 38rem;
 		/* margin: 1.8rem auto 0 8rem; */
 	}
@@ -108,7 +104,7 @@
 		width: 49rem;
 		height: 14rem;
 		margin-top: 7.2rem;
-		margin-left: -6.7rem;
+		margin-left: auto;
 		margin-right: auto;
 	}
 	.sponsorsDiv {

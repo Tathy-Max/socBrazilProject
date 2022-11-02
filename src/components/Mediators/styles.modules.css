@@ -59,22 +59,16 @@
 }
 @media screen and (max-width: 480px) {
 	.moderDiv {
-		width: 160%;
+		width: 182%;
 		margin: -19rem 0rem 0 1.1rem;
 	}
 	.faixaDiv {
-		width: 168%;
+		width: 190%;
 	}
 	.faixaDiv h2 {
 		padding: 1rem 0 0 1rem;
 	}
 	.moderInfoDiv {
-		display: flex;
-		flex-direction: column;
-		justify-content: space-evenly;
-		align-items: center;
-		background-color: #1c2630;
 		width: 20%;
-		border-radius: 1rem;
 	}
 }

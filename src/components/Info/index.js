@@ -4,7 +4,7 @@ import style from './styles.module.css';
 export function Info() {
 	return (
 		<div className={style.infoDiv}>
-			<img src={InfoLogo} width="400px" alt="info logo" />
+			<img src={InfoLogo} alt="info logo" />
 			<div className={style.infoText}>
 				<h2>Junte-se a nós no evento de SecOps do ano!</h2>
 				<br></br>

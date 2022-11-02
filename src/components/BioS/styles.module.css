@@ -76,7 +76,7 @@ a {
 }
 @media screen and (max-width: 480px) {
 	.bioContainerDiv {
-		width: 168%;
+		width: 190%;
 		height: 35rem;
 	}
 	.h2Div {

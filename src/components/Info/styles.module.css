@@ -35,7 +35,7 @@
 }
 @media screen and (max-width: 480px) {
 	.infoDiv {
-		width: 148%;
+		width: 168%;
 		height: fit-content;
 		margin: 0 auto 0 auto;
 		background-color: #d7dfe7;
