@@ -12,7 +12,7 @@ export function Navbar() {
 			<Link to="anfitrioes" smooth={true} duration={500} offset={-130}>
 				<p>Anfitriões</p>
 			</Link>
-			<Link to="convidados" smooth={true} duration={500} offset={-95}>
+			<Link to="convidados" smooth={true} duration={500} offset={-75}>
 				<p>Convidados</p>
 			</Link>
 			<Link to="contato" smooth={true} duration={500}>

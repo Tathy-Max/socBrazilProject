@@ -6,14 +6,14 @@
 	justify-content: space-around;
 	align-items: flex-start;
 	text-align: center;
-	margin: -16rem auto 0 auto;
+	margin: -18rem auto 0 auto;
 	background-color: #1c2630;
 	border-radius: 1rem;
 }
 .faixaDiv {
 	background-color: #d7dfe7;
 	width: 100%;
-	height: 20.5rem;
+	height: 22.5rem;
 }
 .faixaDiv h2 {
 	background-color: #d7dfe7;

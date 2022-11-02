@@ -3,9 +3,9 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	padding-top: 1.2rem;
+	padding-top: 1.5rem;
 	width: 100%;
-	height: 4.1rem;
+	height: 5.5rem;
 	border-bottom: 0.1rem solid #81c8f7;
 	position: fixed;
 	margin-top: -2.1rem;
@@ -30,14 +30,14 @@
 }
 .navbarDiv img {
 	height: 5rem;
-	margin: 0.5rem 40rem 0 6rem;
+	margin: 2.2rem 40rem 0 6rem;
 	background: no-repeat;
 }
 
 @media screen and (max-width: 480px) {
 	.navbarDiv {
-		/* padding-top: 1.2rem; */
-		/* height: 4.1rem; */
+		padding-top: 2.2rem;
+		height: 4.8rem;
 		/* border-bottom: 0.1rem solid #81c8f7; */
 		/* margin-top: -2.1rem; */
 	}
@@ -60,6 +60,6 @@
 	}
 	.navbarDiv img {
 		/* height: 5rem; */
-		margin: 0.9rem 2rem 0 1rem;
+		margin: 1.4rem 2rem 0 1rem;
 	}
 }

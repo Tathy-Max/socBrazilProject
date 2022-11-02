@@ -35,13 +35,13 @@
 }
 @media screen and (max-width: 480px) {
 	.infoDiv {
-		width: 133%;
+		width: 148%;
 		height: fit-content;
 		margin: 0 auto 0 auto;
 		background-color: #d7dfe7;
 	}
 	.infoDiv img {
-		margin: 0.95rem -0.5rem 0 -0.5rem;
+		margin: 0 -2.5rem 0 -0.5rem;
 		height: 11rem;
 	}
 	.infoText {

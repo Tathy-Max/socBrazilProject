@@ -4,7 +4,7 @@
 	justify-content: space-evenly;
 	align-items: center;
 	width: 100%;
-	height: 31rem;
+	height: 33rem;
 	margin: 2rem auto 0 auto;
 	background-image: url('../../assets/backStar.png');
 	/* background-color: red; */
@@ -16,7 +16,7 @@
 	margin: -1rem 28rem 0 10rem;
 }
 .h2Div h2 {
-	margin: 0 auto 0.5rem 10rem;
+	margin: 0 auto -0.5rem 10rem;
 	color: #d7dfe7;
 	background-image: url('../../assets/backStar.png');
 	width: 80%;

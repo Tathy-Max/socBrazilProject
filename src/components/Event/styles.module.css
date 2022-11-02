@@ -1,3 +1,12 @@
+.eventContainer {
+	width: 100%;
+	height: 41.5rem;
+	background-image: url('../../assets/backStar.png');
+	/* background-size: 100%; */
+	/* background: red; */
+	/* margin-left: 5px; */
+	/* padding-right: 26.5rem; */
+}
 .eventDiv {
 	display: flex;
 	flex-direction: column;
@@ -5,7 +14,7 @@
 	height: 52rem;
 	background-image: url('../../assets/backStar.png');
 	/* background-size: 100vw; */
-	margin: 1.8rem auto 0 auto;
+	/* margin: 1.8rem auto 0 auto; */
 	justify-content: space-between;
 	align-items: center;
 }
@@ -79,24 +88,38 @@
 	color: white;
 } */
 @media screen and (max-width: 480px) {
+	.eventContainer {
+		width: 100%;
+		height: 41.5rem;
+		width: calc(100% - 100px);
+		height: 27.5rem;
+		display: flex;
+		flex-direction: column;
+		align-items: baseline;
+		flex-wrap: nowrap;
+		padding-right: 26.5rem;
+	}
 	.eventDiv {
-		height: 40rem;
-		margin: 1.8rem auto 0 8rem;
+		width: 100%;
+		height: 38rem;
+		/* margin: 1.8rem auto 0 8rem; */
 	}
 	.eventDiv img {
-		width: 37rem;
+		width: 41rem;
 		height: 13rem;
-		margin-top: 6rem;
+		margin-top: 7.5rem;
+		margin-left: -2.5rem;
+		margin-right: auto;
 	}
 	.sponsorsDiv {
 		width: 37rem;
 		height: 4.7rem;
-		margin: -18rem 0.4rem 0.2rem 7rem;
+		margin: -15rem 0.4rem 0.2rem 7rem;
 	}
 	.sansId {
 		width: 1.7rem;
 		height: 1.8rem;
-		margin-left: 0.8rem;
+		margin-left: 9.8rem;
 		margin-right: 1.4rem;
 	}
 	.dataId {
@@ -116,7 +139,7 @@
 	}
 	.sponsorsDiv p {
 		color: #d7dfe7;
-		margin: 0 2rem 0 -1.3rem;
+		margin: -0.1rem -7rem 0 0.7rem;
 	}
 	.subscribeButton {
 		/* background: #c4c4cc; */
@@ -129,7 +152,7 @@
 		font-weight: bold;
 		align-self: center;
 		margin-bottom: 3rem;
-		margin-right: -4.8rem;
+		margin-right: -6.8rem;
 		cursor: pointer;
 	}
 	.subscribeButton:hover {
