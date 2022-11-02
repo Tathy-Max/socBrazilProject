@@ -8,7 +8,7 @@ export function CardM({ speakers }) {
 			<h2>{speakers.day}</h2>
 			<img src={`${speakers.imageS}`} alt="speakers logo" />
 			<h3>{speakers.name}</h3>
-			<p>{speakers.topicS}</p>
+			<p className={style.pCardT}>{speakers.topicS}</p>
 			<a href={speakers.link} target="_blank" rel="noreferrer">
 				<img id={style.imgC} src={speakers.imageC} alt="speakers logo" />
 			</a>
