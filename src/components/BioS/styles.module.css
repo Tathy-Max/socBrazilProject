@@ -7,7 +7,6 @@
 	height: 33rem;
 	margin: 2rem auto 0 auto;
 	background-image: url('../../assets/backStar.png');
-	/* background-color: red; */
 }
 .h2Div {
 	background-image: url('../../assets/backStar.png');
@@ -29,6 +28,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	margin: -1.5rem auto 0 10rem;
+	gap: 0.2rem;
 	background-image: url('../../assets/backStar.png');
 }
 .cardsSDiv img,
@@ -73,4 +73,40 @@ a {
 	color: #81c8f7;
 	margin-bottom: 1rem;
 	background-color: #1c2630;
+}
+@media screen and (max-width: 480px) {
+	.bioContainerDiv {
+		width: 168%;
+		height: 35rem;
+	}
+	.h2Div {
+		background-image: url('../../assets/backStar.png');
+		width: 80%;
+		height: max-content;
+		margin: -1rem 28rem 0 10rem;
+	}
+	.h2Div h2 {
+		margin: -0.5rem auto -0.5rem 5rem;
+	}
+	.cardsSDiv {
+		width: 99%;
+		height: max-content;
+		display: flex;
+		margin: -1.5rem auto 0 0;
+	}
+	.bioSDiv {
+		width: 15rem;
+		height: 28rem;
+	}
+	.bioSDiv img {
+		color: #d7dfe7;
+		width: 4.5rem;
+		height: 4.5rem;
+		margin-top: 0.5rem;
+		margin-bottom: 1.6rem;
+	}
+	.bioSDiv h3 {
+		margin-bottom: 0.7rem;
+		margin-top: -1.2rem;
+	}
 }
