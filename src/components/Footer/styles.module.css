@@ -42,7 +42,7 @@
 	text-align: center;
 	margin: -7rem auto 0 auto;
 	background-color: #1c2630;
-	padding: 10px 0 10px 0;
+	padding: 0.6rem 0 0.6rem 0;
 }
 .contatoDiv h3 {
 	color: #d7dfe7;
@@ -71,74 +71,19 @@
 }
 @media screen and (max-width: 480px) {
 	.btDiv {
-		display: flex;
 		width: 168%;
-		height: 3rem;
-		flex-direction: row;
-		justify-content: space-evenly;
-		align-items: flex-start;
-		align-content: flex-end;
+		/* height: 3rem; */
 		margin: 2rem auto 11rem auto;
 	}
 	.btDiv h3 {
-		color: #89d0ff;
 		margin: 1rem 0rem 1rem 1rem;
-		font-size: 2.5rem;
 	}
 	.subscribeButton {
-		background: #c4c4cc;
-		color: #1c2630;
-		border-color: #81c8f7;
-		box-shadow: #287ad9;
-		border-radius: 0.62rem;
-		padding: 0.62rem 1.3rem;
-		font-size: 1.3rem;
-		font-weight: bold;
-		align-self: center;
 		margin: 1rem 1rem 1rem auto;
-		cursor: pointer;
-	}
-	.subscribeButton:hover {
-		background-color: #1c2630;
-		color: white;
-		box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
-			0 17px 50px 0 rgba(0, 0, 0, 0.19);
 	}
 	.contatoDiv {
 		width: 168%;
-		height: 5rem;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		align-items: center;
-		text-align: center;
+		/* height: 5rem; */
 		margin: -7rem auto 0 auto;
-		background-color: #1c2630;
-		padding: 10px 0 10px 0;
-	}
-	.contatoDiv h3 {
-		color: #d7dfe7;
-		background: no-repeat;
-	}
-	.socialDiv {
-		background-color: #1c2630;
-	}
-	.socialDiv img {
-		height: 2rem;
-		transition: transform 0.3s;
-		background-color: #1c2630;
-	}
-	.socialDiv img:hover {
-		transform: scale(1.1);
-		background-color: #1c2630;
-	}
-	.socialDiv a {
-		height: 2rem;
-		background-color: #1c2630;
-	}
-	.socialDiv p {
-		color: #d7dfe7;
-		background-color: #1c2630;
-		font-size: 0.9rem;
 	}
 }
