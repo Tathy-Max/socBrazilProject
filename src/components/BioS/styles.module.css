@@ -74,9 +74,10 @@ a {
 	margin-bottom: 1rem;
 	background-color: #1c2630;
 }
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 	.bioContainerDiv {
 		width: 190%;
+		/* width: calc(100% - 100px); */
 		height: 35rem;
 	}
 	.h2Div {
@@ -89,10 +90,10 @@ a {
 		margin: -0.5rem auto -0.5rem 5rem;
 	}
 	.cardsSDiv {
-		width: 99%;
+		width: 95%;
 		height: max-content;
 		display: flex;
-		margin: -1.5rem auto 0 0;
+		margin: -1.3rem auto 0 auto;
 	}
 	.bioSDiv {
 		width: 15rem;

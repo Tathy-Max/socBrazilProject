@@ -34,27 +34,11 @@
 	background: no-repeat;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 	.navbarDiv {
 		padding-top: 2.8rem;
 		height: 4.8rem;
-	}
-	.navbarDiv p {
-		font-size: 1.1rem;
-		--s: 0.1em; /* the thickness of the line */
-		--c: #4a5759; /* the color */
-		color: #e1e1e6;
-		padding-bottom: var(--s);
-		background: linear-gradient(90deg, var(--c) 50%, #000 0)
-				calc(100% - var(--_p, 0%)) / 200% 100%,
-			linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
-		-webkit-background-clip: text, padding-box;
-		background-clip: text, padding-box;
-		margin-right: 1rem;
-	}
-	.navbarDiv p:hover {
-		--_p: 100%;
-		--_s: 0.3s;
+		/* width: calc(100% - 100px); */
 	}
 	.navbarDiv img {
 		/* height: 5rem; */
