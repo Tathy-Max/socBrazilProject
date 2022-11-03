@@ -34,7 +34,7 @@
 	background-color: #1c2630;
 	margin-top: -2.5rem;
 }
-.cardSDiv img {
+.imgSpeaker {
 	color: #d7dfe7;
 	width: 7.3rem;
 	height: 7.3rem;
@@ -42,11 +42,13 @@
 	background-color: none;
 	margin-top: -1.5rem;
 }
-#imgC {
+.imgC {
+	width: 6.5rem;
 	height: 3.8rem;
 	background: #1c2630;
 	margin-top: -1.5rem;
 	margin-bottom: -2rem;
+	border-radius: none;
 }
 
 .cardSDiv h2 {
@@ -64,7 +66,7 @@
 	.cardSDiv p {
 		height: 1.2rem;
 		margin-top: -3rem;
-		margin-bottom: 0.8rem;
+		margin-bottom: 0.9rem;
 	}
 	.pCardT {
 		margin-top: 5rem;

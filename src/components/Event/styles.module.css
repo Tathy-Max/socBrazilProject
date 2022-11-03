@@ -89,7 +89,6 @@
 } */
 @media screen and (max-width: 480px) {
 	.eventContainer {
-		/* width: 168%; */
 		height: 41.5rem;
 		width: calc(100% - 100px);
 		height: 27.5rem;
@@ -98,14 +97,11 @@
 	.eventDiv {
 		width: 190%;
 		height: 38rem;
-		/* margin: 1.8rem auto 0 8rem; */
 	}
 	.eventDiv img {
-		width: 49rem;
+		width: 48rem;
 		height: 14rem;
-		margin-top: 7.2rem;
-		margin-left: auto;
-		margin-right: auto;
+		margin: 7.6rem auto 0 0.5rem;
 	}
 	.sponsorsDiv {
 		width: 37rem;

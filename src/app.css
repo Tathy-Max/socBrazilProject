@@ -19,12 +19,7 @@
 }
 @media screen and (max-width: 480px) {
 	.cardDiv {
-		/* display: flex;
-		justify-content: space-between;
-		align-items: center;
-		width: 80%; */
-		/* height: 36rem; */
-		margin: 0 0.1rem 0 0.1rem;
+		margin: 0 0.1rem 0 -0.9rem;
 	}
 	.h2Agenda {
 		/* color: #89d0ff; */
