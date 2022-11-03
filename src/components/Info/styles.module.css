@@ -39,8 +39,8 @@
 		/* width: calc(100% - 100px); */
 		height: fit-content;
 		margin: 0 auto 0 auto;
-		background-color: #d7dfe7;
-		padding-top: 0.6rem;
+		/* background-color: #d7dfe7; */
+		/* padding-top: 0.6rem; */
 	}
 	.infoDiv img {
 		margin: 0 -2.5rem 0 -2.5rem;

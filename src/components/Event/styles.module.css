@@ -83,10 +83,6 @@
 	border-radius: 1rem;
 	margin: 0 7rem 0 4.4rem;
 }
-/* a:hover {
-	background-color: #1c2630;
-	color: white;
-} */
 @media screen and (max-width: 480px) {
 	.eventContainer {
 		height: 41.5rem;
@@ -101,7 +97,7 @@
 	.eventDiv img {
 		width: 48rem;
 		height: 14rem;
-		margin: 7.6rem auto 0 0.5rem;
+		margin: 7.6rem auto 0 auto;
 	}
 	.sponsorsDiv {
 		width: 37rem;

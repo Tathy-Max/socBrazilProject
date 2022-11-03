@@ -71,9 +71,9 @@
 }
 @media (max-width: 480px) {
 	.btDiv {
-		/* width: 190%; */
+		width: 190%;
 		/* height: 3rem; */
-		width: calc(100% - 100px);
+		/* width: calc(100% - 100px); */
 		margin: 2rem auto 11rem auto;
 	}
 	.btDiv h3 {
