@@ -35,7 +35,7 @@
 }
 @media (max-width: 480px) {
 	.infoDiv {
-		width: 190%;
+		width: 168%;
 		/* width: calc(100% - 100px); */
 		height: fit-content;
 		margin: 0 auto 0 auto;

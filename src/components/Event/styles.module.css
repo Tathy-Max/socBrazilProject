@@ -97,7 +97,7 @@
 	.eventDiv img {
 		width: 48rem;
 		height: 14rem;
-		margin: 7.6rem auto 0 auto;
+		margin: 7.6rem auto 0 0.4rem;
 	}
 	.sponsorsDiv {
 		width: 37rem;
@@ -137,18 +137,18 @@
 		border-radius: 0.62rem; */
 		padding: 0.62rem 1.3rem;
 		font-size: 1.1rem;
-		font-weight: bold;
-		align-self: center;
+		/* font-weight: bold;
+		align-self: center; */
 		margin-bottom: 3rem;
 		margin-right: -6.8rem;
-		cursor: pointer;
+		/* cursor: pointer; */
 	}
-	.subscribeButton:hover {
+	/* .subscribeButton:hover {
 		background-color: #1c2630;
 		color: white;
 		box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
 			0 17px 50px 0 rgba(0, 0, 0, 0.19);
-	}
+	} */
 	.sponsorsDiv a {
 		/* background-color: #202b36;
 		text-decoration: none;
