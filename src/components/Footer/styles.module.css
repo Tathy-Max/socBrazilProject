@@ -71,7 +71,7 @@
 }
 @media (max-width: 480px) {
 	.btDiv {
-		width: 190%;
+		width: 160%;
 		/* height: 3rem; */
 		/* width: calc(100% - 100px); */
 		margin: 2rem auto 11rem auto;
@@ -83,7 +83,7 @@
 		margin: 1rem 1rem 1rem auto;
 	}
 	.contatoDiv {
-		width: 190%;
+		width: 160%;
 		/* height: 5rem; */
 		margin: -7rem auto 0 auto;
 	}

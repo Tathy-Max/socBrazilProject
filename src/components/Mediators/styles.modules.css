@@ -59,12 +59,12 @@
 }
 @media (max-width: 480px) {
 	.moderDiv {
-		width: 182%;
+		width: 157%;
 		/* width: calc(100% - 100px); */
 		margin: -19rem 0rem 0 0.5rem;
 	}
 	.faixaDiv {
-		width: 186%;
+		width: 160%;
 		/* width: calc(100% - 100px); */
 	}
 	.faixaDiv h2 {
