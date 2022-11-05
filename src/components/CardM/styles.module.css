@@ -58,7 +58,7 @@
 .cardSDiv a {
 	background-color: #1c2630;
 }
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 	.cardSDiv {
 		padding: 0.7rem;
 		height: 31rem;

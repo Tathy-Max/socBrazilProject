@@ -4,6 +4,9 @@
 	padding: 0px;
 	background: #202b36;
 }
+html {
+	scroll-behavior: smooth;
+}
 .cardDiv {
 	display: flex;
 	justify-content: space-between;

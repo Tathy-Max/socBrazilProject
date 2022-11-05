@@ -83,12 +83,12 @@
 	border-radius: 1rem;
 	margin: 0 7rem 0 4.4rem;
 }
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
 	.eventContainer {
-		height: 41.5rem;
+		/* height: 41.5rem; */
 		width: calc(100% - 100px);
 		height: 27.5rem;
-		padding-right: 29.5rem;
+		/* padding-right: 29.5rem; */
 	}
 	.eventDiv {
 		width: 190%;
