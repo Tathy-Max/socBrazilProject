@@ -1,5 +1,6 @@
 import InfoLogo from '../../assets/SOC HERO IMAGE.png';
 import style from './styles.module.css';
+import { BackToTopButton } from '../BackToTopButton';
 
 export function Info() {
 	return (
@@ -20,6 +21,7 @@ export function Info() {
 				<br></br>
 				<h3>Tudo gratuito e online. Início sempre às 20h.</h3>
 			</div>
+			<BackToTopButton />
 		</div>
 	);
 }

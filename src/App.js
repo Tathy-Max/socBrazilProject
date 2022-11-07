@@ -5,6 +5,7 @@ import { Info } from './components/Info';
 import { Mediators } from './components/Mediators';
 import { BioS } from './components/BioS';
 import { Footer } from './components/Footer';
+// import { BackToTopButton } from './components/BackToTopButton';
 
 import speakers from './speakers.json';
 import { useState } from 'react';
@@ -18,6 +19,7 @@ function App() {
 			<Navbar />
 			<Event />
 			<Info />
+
 			<h2 className="h2Agenda">Agenda</h2>
 			<div id="agenda" className="cardDiv">
 				{allSpeakers.map((speakers) => {
