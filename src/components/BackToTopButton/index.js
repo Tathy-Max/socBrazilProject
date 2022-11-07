@@ -28,13 +28,14 @@ export function BackToTopButton() {
 				<button
 					style={{
 						position: 'fixed',
-						bottom: '40px',
-						right: '40px',
-						height: '40px',
-						width: '40px',
-						fontSize: '30px',
+						bottom: '2.5rem',
+						right: '2.5rem',
+						height: '2.5rem',
+						width: '2.5rem',
+						fontSize: '1.9rem',
 						color: '#d7dfe7',
 						borderColor: '#d7dfe7',
+						borderRadius: '0.5rem',
 					}}
 					onClick={scrollUp}
 				>

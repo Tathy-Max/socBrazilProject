@@ -18,7 +18,7 @@
 .h2Agenda {
 	color: #89d0ff;
 	margin: 1.2rem auto -1.5rem auto;
-	padding: 0 0 0 10rem;
+	padding: 0 0 0 11rem;
 }
 @media (max-width: 480px) {
 	.cardDiv {

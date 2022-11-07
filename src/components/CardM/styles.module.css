@@ -15,12 +15,14 @@
 	margin-left: 1rem;
 	border: 1px solid;
 	border-color: #81c8f7;
+	transition: transform 0.3s;
 }
 .cardSDiv:hover {
 	background-color: #1c2630;
 	color: white;
 	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
 		0 17px 50px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.1);
 }
 .cardSDiv p {
 	color: #d7dfe7;
