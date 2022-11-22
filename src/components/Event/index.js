@@ -21,7 +21,7 @@ export function Event() {
 
 					<a
 						id="btnSubscribe"
-						href="https://www.sympla.com.br/evento-online/soc-brazil-week-2022/1735097"
+						href="https://forms.gle/piHJp6os62nNBHFe9"
 						target="_blank"
 						rel="noreferrer"
 					>
