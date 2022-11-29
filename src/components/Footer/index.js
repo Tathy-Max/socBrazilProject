@@ -10,7 +10,7 @@ export function Footer() {
 				<h3>Não perca essa chance!</h3>
 				<a
 					id="btnSubscribe"
-					href="https://www.sympla.com.br/evento-online/soc-brazil-week-2022/1735097"
+					href="https://docs.google.com/forms/d/e/1FAIpQLSdsC4NWKvPh0_9WFqJrZEJBVSw9UwqScndiqCkfmqPuwF57Ng/viewform"
 					target="_blank"
 					rel="noreferrer"
 				>
